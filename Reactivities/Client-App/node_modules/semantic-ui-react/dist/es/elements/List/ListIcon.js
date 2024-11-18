@@ -1,0 +1,35 @@
+import _extends from "@babel/runtime/helpers/esm/extends";
+import cx from 'clsx';
+import PropTypes from 'prop-types';
+import React from 'react';
+import { createShorthandFactory, getUnhandledProps, SUI, useVerticalAlignProp } from '../../lib';
+import Icon from '../Icon/Icon';
+/**
+ * A list item can contain an icon.
+ */
+
+var ListIcon = /*#__PURE__*/React.forwardRef(function (props, ref) {
+  var className = props.className,
+      verticalAlign = props.verticalAlign;
+  var classes = cx(useVerticalAlignProp(verticalAlign), className);
+  var rest = getUnhandledProps(ListIcon, props);
+  return /*#__PURE__*/React.createElement(Icon, _extends({}, rest, {
+    className: classes,
+    ref: ref
+  }));
+});
+ListIcon.handledProps = ["className", "verticalAlign"];
+ListIcon.displayName = 'ListIcon';
+ListIcon.propTypes = process.env.NODE_ENV !== "production" ? {
+  /** Additional classes. */
+  className: PropTypes.string,
+
+  /** An element inside a list can be vertically aligned. */
+  verticalAlign: PropTypes.oneOf(SUI.VERTICAL_ALIGNMENTS)
+} : {};
+ListIcon.create = createShorthandFactory(ListIcon, function (name) {
+  return {
+    name: name
+  };
+});
+export default ListIcon;

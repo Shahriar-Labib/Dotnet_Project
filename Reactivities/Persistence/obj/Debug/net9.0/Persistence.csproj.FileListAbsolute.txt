@@ -1,0 +1,15 @@
+D:\demo\Reactivities\Persistence\bin\Debug\net9.0\Persistence.deps.json
+D:\demo\Reactivities\Persistence\bin\Debug\net9.0\Persistence.dll
+D:\demo\Reactivities\Persistence\bin\Debug\net9.0\Persistence.pdb
+D:\demo\Reactivities\Persistence\bin\Debug\net9.0\Domain.dll
+D:\demo\Reactivities\Persistence\bin\Debug\net9.0\Domain.pdb
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.csproj.AssemblyReference.cache
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.AssemblyInfoInputs.cache
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.AssemblyInfo.cs
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.csproj.CoreCompileInputs.cache
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persiste.61C28332.Up2Date
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.dll
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\refint\Persistence.dll
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\Persistence.pdb
+D:\demo\Reactivities\Persistence\obj\Debug\net9.0\ref\Persistence.dll

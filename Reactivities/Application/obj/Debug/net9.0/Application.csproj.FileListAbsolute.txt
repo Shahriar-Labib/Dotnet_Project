@@ -1,0 +1,17 @@
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Application.deps.json
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Application.dll
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Application.pdb
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Domain.dll
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Persistence.dll
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Domain.pdb
+D:\demo\Reactivities\Application\bin\Debug\net9.0\Persistence.pdb
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.dll
+D:\demo\Reactivities\Application\obj\Debug\net9.0\refint\Application.dll
+D:\demo\Reactivities\Application\obj\Debug\net9.0\Application.pdb
+D:\demo\Reactivities\Application\obj\Debug\net9.0\ref\Application.dll
