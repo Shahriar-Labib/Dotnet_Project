@@ -153,3 +153,4 @@ D:\demo\Reactivities\API\bin\Debug\net9.0\MediatR.dll
 D:\demo\Reactivities\API\bin\Debug\net9.0\MediatR.Contracts.dll
 D:\demo\Reactivities\API\bin\Debug\net9.0\AutoMapper.dll
 D:\demo\Reactivities\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\demo\Reactivities\API\obj\Debug\net9.0\API.sourcelink.json
