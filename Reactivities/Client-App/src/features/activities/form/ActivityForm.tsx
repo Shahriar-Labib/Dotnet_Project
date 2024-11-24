@@ -8,8 +8,8 @@ interface Props {
   add_edit: (activity: Activity) => void; 
 }
 
-export default function ActivityForm({ activity, closeForm, add_edit }: Props) {
-  const initialState: Activity = activity ?? {
+export default function ActivityForm({ activity: selectedActivity, closeForm,add_edit}: Props) {
+  const initialState = selectedActivity ?? {
     id: '',
     title: '',
     category: '',
@@ -19,26 +19,29 @@ export default function ActivityForm({ activity, closeForm, add_edit }: Props) {
     venue: ''
   };
 
-  const [useactivity, setActivity] = useState<Activity>(initialState);
+  const [activity, setActivity] = useState(initialState);
 
   function handleSubmit() {
-    add_edit(useactivity);
+    console.log(activity);
+    add_edit(activity);
   }
 
   function handleInputSubmit(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value } = event.target;
-    setActivity({ ...useactivity, [name]: value });
+    setActivity({ ...activity, [name]: value });
   }
+
+  
 
   return (
     <Segment clearing>
       <Form onSubmit={handleSubmit} autoComplete='off'>
-        <Form.Input placeholder='Title' value={useactivity.title} name='title' onChange={handleInputSubmit} />
-        <Form.TextArea placeholder='Description' value={useactivity.discription} name='description' onChange={handleInputSubmit} />
-        <Form.Input placeholder='Category' value={useactivity.category} name='category' onChange={handleInputSubmit} />
-        <Form.Input placeholder='Date' value={useactivity.date} name='date' onChange={handleInputSubmit} />
-        <Form.Input placeholder='City' value={useactivity.city} name='city' onChange={handleInputSubmit} />
-        <Form.Input placeholder='Venue' value={useactivity.venue} name='venue' onChange={handleInputSubmit} />
+        <Form.Input placeholder='Title' value={activity.title} name='title' onChange={handleInputSubmit} />
+        <Form.TextArea placeholder='Description' value={activity.discription} name='discription' onChange={handleInputSubmit} />
+        <Form.Input placeholder='Category' value={activity.category} name='category' onChange={handleInputSubmit} />
+        <Form.Input placeholder='Date' value={activity.date} name='date' onChange={handleInputSubmit} />
+        <Form.Input placeholder='City' value={activity.city} name='city' onChange={handleInputSubmit} />
+        <Form.Input placeholder='Venue' value={activity.venue} name='venue' onChange={handleInputSubmit} />
         <Button floated='right' positive type='submit' content='Submit' />
         <Button onClick={closeForm} floated='right' type='button' content='Cancel' />
       </Form>
